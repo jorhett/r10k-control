@@ -1,0 +1,10 @@
+cachedir: '/var/cache/r10k'
+
+sources:
+  jorhett:
+    basedir: '/etc/puppetlabs/code/environments'
+    remote: 'https://github.com/jorhett/r10k-control.git'
+    prefix: false
+
+# An optional command to be run after deployment
+#postrun: ['/path/to/command','--opt1','arg1','arg2']
